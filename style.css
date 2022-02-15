@@ -1,24 +1,24 @@
 
-/*CSS Variables*/
+/*CSS VARIABLES*/
 
 :root{
     --PRIMARY-COLOR:#4B4453;
-    --DARK-PRIMARY-COLOR:#272d38;
-    --GRAY-COLOR: #ece6e6;
     --TEXT-COLOR: #FFF;
-    --BLACK-COLOR:#000;
+    --TEXT-COLOR-ALTERNATE:#000;
     --SECONDARY-COLOR:#dbd9dc;
-    --FOOTER-COLOR : #ff9f1c;
+    --FOOTER-CREDIT-COLOR : #ff9f1c;
 }
 
+/*RESET*/
 *{
     margin: 0;
     scroll-behavior: smooth;
 }
 
+/*NAVBAR STYLING*/
+
 .menu-link,
 .footer-menu-link{
-    color: var(--WHITE-COLOR);
     font-size: 1.6rem;
     padding:.8rem 1.2rem;
     transition: all .3s ease;
@@ -28,7 +28,7 @@
 .menu-link:hover,
 .footer-menu-link:hover {
     background: var(--TEXT-COLOR);
-    color:var(--BLACK-COLOR);
+    color: var(--TEXT-COLOR-ALTERNATE);
 }
 
 .navbar-menu{
@@ -36,39 +36,27 @@
     justify-content: space-evenly;
 }
 
+/*HERO STYLING*/
+
 img.hero-img{
-    object-fit: cover;
     object-position: top right;
     width: 100%;
     height: calc(100vh - 8rem);
-   
 }
-
-header{
-    height: calc(100vh - 16rem);
-}
-
 
 .hero{
     background: linear-gradient(180deg, var(--PRIMARY-COLOR) 0%, var(--SECONDARY-COLOR) 100%);  
     position: relative;
 } 
 
-.btn-hero-cta{
-    width:25rem;
-    padding:1rem 1.2rem;
-}
-
-.inverted-text{
-    color: var(--BLACK-COLOR);
+.hero-inverted-text{
+    color: var(--TEXT-COLOR-ALTERNATE);
 }
 
 .hero .btn-hero-cta{
     display: block;
-    padding: 1.2rem 1.4rem;
-    background-color:var(--PRIMARY-COLOR);
     margin-top: 5rem;
-
+    width:25rem;
 } 
 
 .hero-heading{
@@ -77,8 +65,8 @@ header{
 
 .hero-text{
     position: absolute;
-    top: 30%;
-    left: 5%;
+    top: 28%;
+    left: 4%;
     color: var(--TEXT-COLOR);
     max-width: 72rem;
 
@@ -87,12 +75,10 @@ header{
 /*Categories Styling*/
 
 .category-heading{
-    margin-top: 14rem;
-    margin-bottom: 5rem;
+    margin:4rem auto;
 }
 
 .quiz-category{
-    display: flex;
     justify-content: space-around;
     margin-bottom: 8rem;
     flex-wrap: wrap;
@@ -104,16 +90,17 @@ header{
 
   /*Footer styling*/
 
-
   .footer-credit{
-    color: var(--FOOTER-COLOR);
+    color: var(--FOOTER-CREDIT-COLOR);
+  }
+
+  footer > p{
+      padding-bottom: 4px;
   }
 
   .footer{
       height: 10rem;
       background-color: var(--PRIMARY-COLOR);
-      align-items: center;
-      justify-content: center;
       color: var(--TEXT-COLOR);
   }
 
@@ -123,8 +110,5 @@ header{
 
   .footer-menu-link{
     color: var(--TEXT-COLOR);
-    font-size: 1.6rem;
     padding:.6rem 1rem;
-    transition: all .3s ease;
-    border-radius:5px;
   }

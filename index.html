@@ -7,7 +7,7 @@
     <title>Home | Badminton Triva</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://shuttleui.netlify.app/components/components-styles/shuttleUI-main.css">
-    <script src="https://kit.fontawesome.com/2352d5969b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2352d5969b.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
     <nav class="navbar flex-row">
@@ -18,12 +18,12 @@
 
         <ul class="navbar-menu list-unstyled flex-row">
             <li class="list-inline">
-                <a class=" menu-link" href="#">   
+                <a class=" menu-link" href="index.html">   
                     <i class="fas fa-home"></i> Home
                 </a>
             </li>
             <li class="list-inline">
-                <a class=" menu-link" href="#"> 
+                <a class=" menu-link" href=""> 
                     <i class="fas fa-sign-in-alt"></i> Login
                 </a>
             </li>
@@ -35,8 +35,8 @@
         <div class="hero">
             <img class="hero-img responsive-img" src="./assets/transparent.png" alt="hero">
             <div class="hero-text">
-                <h1 class="hero-heading">Test your <span class="inverted-text"> badminton knowledge</span> & prove yourself a badminton <span class="inverted-text">ninja</span> <i class="fas fa-user-ninja"></i></h1> 
-                <a href="#categories" class="text-center btn btn-primary btn-hero-cta text-xl text-bold-500"> Take me to quizzes</a>
+                <h1 class="hero-heading">Test your <span class="hero-inverted-text"> badminton knowledge</span> & prove yourself a badminton <span class="hero-inverted-text">ninja</span> <i class="fas fa-user-ninja"></i></h1> 
+                <a href="#categories" class="text-center btn btn-primary btn-hero-cta text-xl"> Take me to quizzes</a>
             </div>
         </div>
         
@@ -48,7 +48,7 @@
         <section class="quiz-category flex-row">
             <div class="card align-items-center">
                 <div class="card-header">
-                    <img class="card-img" src="./assets/badminton-player.png" alt="badminton player">
+                    <img class="card-img" src="./assets/badminton-player.png" alt="guess badminton player">
                 </div>
                 <div class="card-body card-overlay-text btn btn-primary">
                     Guess the Legend
@@ -59,7 +59,7 @@
             </div>
             <div class="card align-items-center">
                 <div class="card-header">
-                    <img class="card-img" src="./assets/olympic player.png" alt="">
+                    <img class="card-img" src="./assets/olympic player.png" alt="badminton olympics quiz">
                 </div>
                 <div class="card-body card-overlay-text btn btn-primary">
                     Olympics Special
@@ -71,7 +71,7 @@
 
             <div class="card align-items-center">
                 <div class="card-header">
-                    <img class="card-img" src="./assets/shuttles.png" alt="">
+                    <img class="card-img" src="./assets/shuttles.png" alt="badminton - trivai quiz">
                 </div>
                 <div class="card-body card-overlay-text btn btn-primary">
                     Badminton Trivia
@@ -84,7 +84,7 @@
         
     </main>
 
-    <footer class="footer flex-column">
+    <footer class="footer flex-column align-items-center">
         <p class="text-sm">Made with <span class="footer-credit"><i class="fas fa-heart"></i> </span>by <span class="footer-credit">Ankit Kumain</span></p>
         <ul class="flex-row footer-links">
             <li class="list-unstyled">
