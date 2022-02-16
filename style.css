@@ -1,0 +1,114 @@
+
+/*CSS VARIABLES*/
+
+:root{
+    --PRIMARY-COLOR:#4B4453;
+    --TEXT-COLOR: #FFF;
+    --TEXT-COLOR-ALTERNATE:#000;
+    --SECONDARY-COLOR:#dbd9dc;
+    --FOOTER-CREDIT-COLOR : #ff9f1c;
+}
+
+/*RESET*/
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*NAVBAR STYLING*/
+
+.menu-link,
+.footer-menu-link{
+    font-size: 1.6rem;
+    padding:.8rem 1.2rem;
+    transition: all .3s ease;
+    border-radius:5px;
+}
+
+.menu-link:hover,
+.footer-menu-link:hover {
+    background: var(--TEXT-COLOR);
+    color: var(--TEXT-COLOR-ALTERNATE);
+}
+
+.navbar-menu{
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+/*HERO STYLING*/
+
+img.hero-img{
+    object-position: top right;
+    width: 100%;
+    height: calc(100vh - 8rem);
+}
+
+.hero{
+    background: linear-gradient(180deg, var(--PRIMARY-COLOR) 0%, var(--SECONDARY-COLOR) 100%);  
+    position: relative;
+} 
+
+.hero-inverted-text{
+    color: var(--TEXT-COLOR-ALTERNATE);
+}
+
+.hero .btn-hero-cta{
+    display: block;
+    margin-top: 5rem;
+    width:25rem;
+} 
+
+.hero-heading{
+    font-size: 5.5rem;
+}
+
+.hero-text{
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    color: var(--TEXT-COLOR);
+    max-width: 72rem;
+
+}
+
+/*Categories Styling*/
+
+.category-heading{
+    margin:4rem auto;
+}
+
+.quiz-category{
+    justify-content: space-around;
+    margin-bottom: 8rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    min-width: 30rem;
+}
+
+  /*Footer styling*/
+
+  .footer-credit{
+    color: var(--FOOTER-CREDIT-COLOR);
+  }
+
+  footer > p{
+      padding-bottom: 4px;
+  }
+
+  .footer{
+      height: 10rem;
+      background-color: var(--PRIMARY-COLOR);
+      color: var(--TEXT-COLOR);
+  }
+
+  .footer-links{
+      margin:0;
+  }
+
+  .footer-menu-link{
+    color: var(--TEXT-COLOR);
+    padding:.6rem 1rem;
+  }

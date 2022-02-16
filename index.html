@@ -5,8 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Badminton Triva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://shuttleui.netlify.app/components/components-styles/shuttleUI-main.css">
+    <script src="https://kit.fontawesome.com/2352d5969b.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
-    
+    <nav class="navbar flex-row">
+        <a class="navbar-brand" href="index.html">
+            <img class="navbar-logo" 
+            src="./assets/site-logo.png" alt="site logo">
+        </a>
+
+        <ul class="navbar-menu list-unstyled flex-row">
+            <li class="list-inline">
+                <a class=" menu-link" href="index.html">   
+                    <i class="fas fa-home"></i> Home
+                </a>
+            </li>
+            <li class="list-inline">
+                <a class=" menu-link" href=""> 
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <header>
+        <div class="hero">
+            <img class="hero-img responsive-img" src="./assets/transparent.png" alt="hero">
+            <div class="hero-text">
+                <h1 class="hero-heading">Test your <span class="hero-inverted-text"> badminton knowledge</span> & prove yourself a badminton <span class="hero-inverted-text">ninja</span> <i class="fas fa-user-ninja"></i></h1> 
+                <a href="#categories" class="text-center btn btn-primary btn-hero-cta text-xl"> Take me to quizzes</a>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <h1 class="text-center category-heading" id="categories">Categories</h1>
+        
+        <section class="quiz-category flex-row">
+            <div class="card align-items-center">
+                <div class="card-header">
+                    <img class="card-img" src="./assets/badminton-player.png" alt="guess badminton player">
+                </div>
+                <div class="card-body card-overlay-text btn btn-primary">
+                    Guess the Legend
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Play Now</button>
+                </div>
+            </div>
+            <div class="card align-items-center">
+                <div class="card-header">
+                    <img class="card-img" src="./assets/olympic player.png" alt="badminton olympics quiz">
+                </div>
+                <div class="card-body card-overlay-text btn btn-primary">
+                    Olympics Special
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Play Now</button>
+                </div>
+            </div>
+
+            <div class="card align-items-center">
+                <div class="card-header">
+                    <img class="card-img" src="./assets/shuttles.png" alt="badminton - trivai quiz">
+                </div>
+                <div class="card-body card-overlay-text btn btn-primary">
+                    Badminton Trivia
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Play Now</button>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer flex-column align-items-center">
+        <p class="text-sm">Made with <span class="footer-credit"><i class="fas fa-heart"></i> </span>by <span class="footer-credit">Ankit Kumain</span></p>
+        <ul class="flex-row footer-links">
+            <li class="list-unstyled">
+                <a class="nav-link md-ht-1 footer-menu-link" href="https://github.com/Maianki"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li class="list-unstyled">
+                <a class="nav-link md-ht-1 footer-menu-link" href="https://twitter.com/Ankit_k10"><i class="fab fa-twitter"></i></a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
