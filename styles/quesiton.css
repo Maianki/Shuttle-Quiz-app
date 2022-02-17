@@ -1,14 +1,16 @@
+
+/*QUIZ QUESTION STYLING*/
+.quiz-question{
+    color: var(--PRIMARY-COLOR);
+}
+
 .question-option{
     background-color: var(--SECONDARY-COLOR);
     color: var(--TEXT-COLOR);
-    margin: 8px;
+    margin: 8px 0;
     padding: 8px;
     border-radius: 5px;
-}
-
-li.question-option{
-    margin-left: 0;
-    margin-right: 0;
+    cursor: pointer;
 }
 
 .question-option:hover{
@@ -19,34 +21,18 @@ li.question-option{
     background-color: var(--PRIMARY-COLOR);
 }
 
-.quiz-question{
-    color: var(--PRIMARY-COLOR);
-}
+
+/*QUESTION CARD STYLING*/
+
 .card-footer .card-btn{
-    margin-top: 2rem;
     margin : 1rem 2rem;
     background-color: var(--SECONDARY-COLOR-2);
     border-radius: 5px;
 }
 
-.question-options{
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
 .card-question{
     background-color: var(--TEXT-COLOR);
     min-width: 35rem;
-}
-
-.card-footer{
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.footer-text{
-    background-color: var(--SECONDARY-COLOR);
-    width: 50%;
 }
 
 .card-horizontal-img{
