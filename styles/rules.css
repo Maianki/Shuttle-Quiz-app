@@ -23,7 +23,7 @@ nav.navbar{
 }
 
 .card-rules{
-    min-width: 30rem;
+    min-width: 35rem;
     background-color: var(--TEXT-COLOR);
     border-radius: 5px;
     padding: 1rem;
@@ -37,23 +37,6 @@ nav.navbar{
 .quiz-rules{
     padding: 1.6rem;
 }
-
-/*ADDING BACKGROUND TO CARD*/
-
-.card-rules::before{
-    content: ' ';
-    position:absolute;  
-    left: 0;
-    top: 0;
-    width:100%;
-    height: 100%;
-    opacity: 0.3;
-    background-image: url('../assets/bg-2.svg');
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-}  
-
 
 /*FOOTER STYLING*/
 
