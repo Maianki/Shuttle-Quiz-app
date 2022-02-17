@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rules | Badminton Trivia</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../styles/rules..css">
+    <title>Question-2| Guess Player</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styles/rules.css">
+    <link rel="stylesheet" href="../../styles/question.css">
     <link rel="stylesheet" href="https://shuttleui.netlify.app/components/components-styles/shuttleUI-main.css">
     <script src="https://kit.fontawesome.com/2352d5969b.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
     
         <nav class="navbar flex-row">
-            <a class="navbar-brand" href="../index.html">
+            <a class="navbar-brand" href="../../index.html">
                 <img class="navbar-logo" 
-                src="../assets/site-logo.png" alt="site logo">
+                src="../../assets/site-logo.png" alt="site logo">
             </a>
     
             <ul class="navbar-menu list-unstyled flex-row">
                 <li class="list-inline">
-                    <a class=" menu-link" href="../index.html">   
+                    <a class=" menu-link" href="../../index.html">   
                         <i class="fas fa-home"></i> Home
                     </a>
                 </li>
                 <li class="list-inline">
-                    <a class=" menu-link" href=""> 
+                    <a class=" menu-link" href="#"> 
                         <i class="fas fa-sign-in-alt"></i> Login
                     </a>
                 </li>             
@@ -33,28 +34,26 @@
         </nav>
 
         <main class="main align-items-center">
-            <div class="card-rules card-shadow-alternate">
-                <div class="card-header">
-                    <h1 class="text-center  rules-heading">Rules</h1>
+
+            <div class="card card-question">
+                <div class="card-header">     
+                    <img class="card-img card-horizontal-img responsive-img" src="../../assets/lin dan.jpg" alt="lin dan">     
                 </div>
-               
-                <div class="card-body align-items-center">
-                    <ul>
-                        <li class="list-unstyled quiz-rules text-bold-500"><i class="md-ht-1 fas fa-pencil-alt"></i>There will be 5 quesitons.</li>
-                        <li class="list-unstyled quiz-rules text-bold-500"><i class="md-ht-1 fas fa-pencil-alt"></i>Each question will have one correct answer.</li>
-                        <li class="list-unstyled quiz-rules text-bold-500"><i class="md-ht-1 fas fa-pencil-alt"></i>Correct answer will provide 5 points.</li>
-                        <li class="list-unstyled quiz-rules text-bold-500"><i class="md-ht-1 fas fa-pencil-alt"></i>Incorrect answer will deduct 1 point.</li>
-                        <li class="list-unstyled quiz-rules text-bold-500"><i class="md-ht-1 fas fa-pencil-alt"></i>To unlock new level you have to score 75%.</li>
-                        
-                        <li class="list-unstyled"></li>
+                <div class="card-body">
+                    <h2 class="quiz-question">Guess the player in the picture</h2>
+                    <ul class="question-options">
+                        <li class="list-unstyled question-option text-center question-active ">lin dan</li>
+                        <li class="list-unstyled question-option text-center">Le Chong Wei</li>
+                        <li class="list-unstyled question-option text-center">Chen Long</li>
+                        <li class="list-unstyled question-option text-center">Kidambi Srikanth</li>
                     </ul>
                 </div>
                 <div class="card-footer flex-row">
-                    <a class="btn btn-outline-primary" href="../index.html#categories">Go back</a>
-                    <a class="btn btn-primary" role="button" href="">Start Quiz</a>
+                    <a class="card-btn btn text-center" href="./question-3.html" role="button">
+                    <span class="md-ht-1">NEXT QUESTION <i class="fas fa-angle-double-right"></i></span></a>
                 </div>
-                
             </div>
+        
         </main>
 
          <footer class="footer flex-column align-items-center">
