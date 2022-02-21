@@ -116,3 +116,25 @@ img.hero-img{
     color: var(--TEXT-COLOR);
     padding:.6rem 1rem;
   }
+
+
+  @media screen and (max-width:48rem) {
+     .hero-heading{
+          font-size: 4.5rem;
+      }
+
+      .hero-text{
+          top:25%;
+      }
+  }
+
+  @media screen and (max-width:24rem) {
+    .hero-heading{
+         display: none;
+     }
+
+     .hero-text{
+        top:70%;
+    }
+
+ }
